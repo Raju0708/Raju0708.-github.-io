@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <script async src="app.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weathr App</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="city-name">
+                    <input type="text" id="city" placeholder="Enter the City">
+                </div>
+                <div class="settings">
+                    <button aria-label="Search" type="submit" onclick="fetchloc()">Search</button>
+                </div>
+            </div>
+            <div class="sub" id="panes">
+                <div class="mbox">
+                    <span class="locbox">
+                        <p id="location"></p>
+                    </span>
+                    <h1 lux="09" id="weather"><span id="weacel">35°C</span></h1>
+
+                    <span lux="10" id="feels">Feels like 32°C</span>
+                    <p lux="11" class="weatxt"><span id="weee"></span> <span id="minmax">
+
+                            28°C/38°C
+                        </span></p>
+                </div>
+            </div>
+
+            <div class="otr">
+
+
+                <div class="otrx5">
+                    <span>
+                        <p>Sunrise</p>
+                    </span>
+                    <span>
+                        <p id="sunrise"></p>
+                    </span>
+                </div>
+                <div class="otrx5">
+                    <span>
+                        <p>Sunset</p>
+                    </span>
+                    <span>
+                        <p id="sunset"></p>
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
